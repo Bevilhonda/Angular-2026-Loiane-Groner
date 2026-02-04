@@ -5,3 +5,9 @@
 <button [disabled]="isDisabled"
 (click)="onClick()">Meu botão</button>
 
+<h1>Count: {{count()}}</h1>
+<h1>Double: {{doubleCount()}}</h1>
+
+<button (click)="(increatCounter())">+</button>
+<button (click)="(decreaseCounter())">-</button>
+<button (click)="(resetCount())">Reset</button>
